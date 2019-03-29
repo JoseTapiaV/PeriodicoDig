@@ -6,8 +6,13 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author LENOVO
+ *EstructuraPeriodico
+ * 
+ * clase que permite estructurar mi periodicxo digital
+ * @version 2.0
+ * @since 2019
+ * @author José
+ * @see http://ups.edu.ec
  */
 public class EstructuraPeriodico {
     private String nombrePeriodico;
@@ -23,11 +28,15 @@ public class EstructuraPeriodico {
     public void setFecha(int fecha){
         this.fecha=fecha;
     }
-    public String getNombrePeriodico(){
-        
     
+    /**
+     * 
+     * @return 
+     */
+    public String getNombrePeriodico()
+    {
      return this.nombrePeriodico;
-}
+    }
     public String getUbicacion(){
       return this.ubicacion;    
     }
