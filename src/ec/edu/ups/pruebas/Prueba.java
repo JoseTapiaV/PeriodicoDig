@@ -68,11 +68,7 @@ public class Prueba
         String  titu=notice.getContenido();
         System.out.println("Noticia: "+titu);
         String  gal=notice.getMultimedia();
-        System.out.println("Mutimedia: "+gal);
-        
-        
-        
-        
+        System.out.println("Mutimedia: "+gal);        
     }
 }
    
